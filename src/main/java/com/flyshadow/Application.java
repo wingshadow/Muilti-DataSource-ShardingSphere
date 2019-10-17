@@ -11,6 +11,11 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @ProjectName sharding-master-slave
  * @Author FlyShadow
  * @Date 2019/10/16 14:27
+ * @deprecated
+ * 禁止springboot组件DataSourceAutoConfiguration，MybatisAutoConfiguration
+ * 和ShardingSphere组件SpringBootConfiguration自动配置数据源。因为系统手动配置
+ * 双数据源+读写分离+数据分片
+ *
  */
 @SpringBootApplication(exclude ={ DataSourceAutoConfiguration.class,
         MybatisAutoConfiguration.class, SpringBootConfiguration.class})
