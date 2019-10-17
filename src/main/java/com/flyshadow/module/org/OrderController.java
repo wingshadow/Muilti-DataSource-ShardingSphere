@@ -1,4 +1,4 @@
-package com.flyshadow.module.controller;
+package com.flyshadow.module.org;
 
 
 import com.flyshadow.persistence.entity.Order;

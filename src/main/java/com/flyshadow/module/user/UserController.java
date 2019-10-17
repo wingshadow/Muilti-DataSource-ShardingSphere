@@ -1,4 +1,4 @@
-package com.flyshadow.module.controller;
+package com.flyshadow.module.user;
 
 import com.flyshadow.persistence.entity.User;
 import com.flyshadow.persistence.service.UserService;
