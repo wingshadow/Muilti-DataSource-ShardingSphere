@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sharding-master-slave</groupId>
-    <artifactId>sharding-master-slave</artifactId>
+    <groupId>Multi-DataSource-ShardingSphere</groupId>
+    <artifactId>Multi-DataSource-ShardingSphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-sharding-table</name>
+    <name>Multi-DataSource-ShardingSphere</name>
     <description>基于 sharding-sphere + 实现读写分离 + 数据分片
     </description>
 
